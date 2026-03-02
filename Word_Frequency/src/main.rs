@@ -2,7 +2,6 @@ fn most_frequent_word(text: &str) -> (String, usize) {
     
     let words: Vec<&str> = text.split_whitespace().collect();
 
-    //let i=0;
     let mut max_count = 0;
     let mut max_word = "...";
 
