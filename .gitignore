@@ -1,11 +1,15 @@
 /rustprogramming
 /workspaces/Spring-2026-Fernando-Reyes-Rust/in_class/target*
 /in_class
+
 /workspaces/Spring-2026-Fernando-Reyes-Rust/homework1/target*
 /homework1/target*
-/homework1
-
-/workspaces/Spring-2026-Fernando-Reyes-Rust/Word_Frequency/target*
-/Word_Frequency/target*
+/homework1/src*
 
 
+/workspaces/Spring-2026-Fernando-Reyes-Rust/word_frequency/target*
+/word_frequency/target*
+/word_frequency
+
+/workspaces/Spring-2026-Fernando-Reyes-Rust/book_catalog/target*
+/book_catalog/target*
