@@ -11,7 +11,7 @@ fn save_books(books: &Vec<Book>, filename: &str) {  //Saves books to "books.txt"
     // TODO: Implement this function
     // Hint: Use File::create() and write!() macro
 
-     let mut bookfile = File::create(filename).unwrap();
+    let mut bookfile = File::create(filename).unwrap();
     for book in books{
         writeln!(bookfile, "{},{},{}", book.title, book.author, book.year).unwrap();
     }
@@ -41,6 +41,7 @@ fn load_books(filename: &str) -> Vec<Book> {    //Loads books from "books.txt"
 }
 
 fn main() {
+    
     let books = vec![
         Book { title: "1984".to_string(), author: "George Orwell".to_string(), year: 1949 },
         Book { title: "To Kill a Mockingbird".to_string(), author: "Harper Lee".to_string(), year: 1960 },
