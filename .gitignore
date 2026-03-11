@@ -18,3 +18,7 @@
 
 /workspaces/Spring-2026-Fernando-Reyes-Rust/file_operations/target*
 /file_operations/target*
+/file_operations
+
+/workspaces/Spring-2026-Fernando-Reyes-Rust/bank_account/target*
+/bank_account/target*
